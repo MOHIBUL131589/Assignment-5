@@ -40,7 +40,17 @@ modalClose.addEventListener('click', function () {
 
 document.getElementById('donateNow').addEventListener('click', function(){
     openModal('donate-1', 'mainBalance')
+    
 })
+document.getElementById('donateNowTwo').addEventListener('click', function(){
+    openModalTwo('donate-2', 'mainBalance')
+
+})
+document.getElementById('donateNowThree').addEventListener('click', function(){
+    openModalThree('donate-3', 'mainBalance')
+
+})
+
 
 
 
