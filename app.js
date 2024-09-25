@@ -38,18 +38,39 @@ modalClose.addEventListener('click', function () {
 // diplay money to the money bag 
 
 
-document.getElementById('donateNow').addEventListener('click', function(){
+document.getElementById('donateNow').addEventListener('click', function () {
     openModal('donate-1', 'mainBalance')
-    
+
+
 })
-document.getElementById('donateNowTwo').addEventListener('click', function(){
+document.getElementById('donateNowTwo').addEventListener('click', function () {
     openModalTwo('donate-2', 'mainBalance')
 
 })
-document.getElementById('donateNowThree').addEventListener('click', function(){
+document.getElementById('donateNowThree').addEventListener('click', function () {
     openModalThree('donate-3', 'mainBalance')
 
 })
+
+
+// link faq section 
+
+document.getElementById('blogClick').addEventListener('click', function () {
+    window.location.href = 'faq.html';
+})
+
+// transaction history 
+
+
+
+
+
+
+
+
+
+
+
 
 
 

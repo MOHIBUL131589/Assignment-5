@@ -11,6 +11,10 @@ module.exports = {
         black: '#111111',
         paragraph: 'rgba(17, 17, 17, 0.7)',
 
+      },
+      fontFamily: {
+        font1: ['Raleway'],
+        font2: ['Inter']
       }
     },
   },

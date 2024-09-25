@@ -25,7 +25,8 @@
         <div
             class="flex flex-col-reverse gap-3 justify-center items-center py-6 bg-cream lg:flex-row md:justify-around md:py-12">
             <div>
-                <button class="btn btn-secondary bg-primary hover:bg-slate-200 border-none text-black">Blog</button>
+                <button id="blogClick"
+                    class="btn btn-secondary bg-primary hover:bg-slate-200 border-none text-black">Blog</button>
             </div>
             <div class="flex flex-col justify-center items-center md:flex-row md:gap-3">
                 <img src="assets/logo.png" alt="">
@@ -65,7 +66,8 @@
                             and making a positive impact on the lives of those in need.</p>
                         <input id="donate-1" type="text" placeholder="Write Donation Amount"
                             class="input input-bordered w-full max-w-xs md:max-w-lg" />
-                        <button id="donateNow" class="btn bg-primary rounded-lg h-14 w-full max-w-xs md:max-w-lg">Donate Now</button>
+                        <button id="donateNow" class="btn bg-primary rounded-lg h-14 w-full max-w-xs md:max-w-lg">Donate
+                            Now</button>
                     </div>
                 </div>
             </div>
@@ -95,7 +97,8 @@
                             real difference. Please consider donating today to assist those in urgent need.</p>
                         <input id="donate-2" type="text" placeholder="Write Donation Amount"
                             class="input input-bordered w-full max-w-xs md:max-w-lg" />
-                        <button id="donateNowTwo" class="btn bg-primary rounded-lg h-14 w-full max-w-xs md:max-w-lg">Donate Now</button>
+                        <button id="donateNowTwo"
+                            class="btn bg-primary rounded-lg h-14 w-full max-w-xs md:max-w-lg">Donate Now</button>
                     </div>
                 </div>
             </div>
@@ -125,31 +128,26 @@
                             donation to support these brave individuals in their time of need.</p>
                         <input id="donate-3" type="text" placeholder="Write Donation Amount"
                             class="input input-bordered w-full max-w-xs md:max-w-lg" />
-                        <button id="donateNowThree" class="btn bg-primary rounded-lg h-14 w-full max-w-xs md:max-w-lg">Donate Now</button>
+                        <button id="donateNowThree"
+                            class="btn bg-primary rounded-lg h-14 w-full max-w-xs md:max-w-lg">Donate Now</button>
                     </div>
                 </div>
             </div>
         </section>
         <section id="history" class="hidden my-12 md:my-24 space-y-3 lg:max-w-screen-lg mx-auto">
-            <div tabindex="0" class="collapse collapse-open border-base-300 bg-base-200 border">
-                <div class="collapse-title text-xl font-medium">96500 Taka is Donated for famine-2024 at Feni,
-                    Bangladesh</div>
-                <div class="collapse-content">
-                    <p>tabindex="0" attribute is necessary to make the div focusable</p>
+            <div class="max-w-96 lg:max-w-6xl p-4 h-36 bg-gray-100 border-black rounded-lg mx-auto">
+                <div id="transaction-container">
+                    <p id="liveTime"></p>
                 </div>
             </div>
-            <div tabindex="0" class="collapse collapse-open border-base-300 bg-base-200 border">
-                <div class="collapse-title text-xl font-medium">6500 Taka is Donated for Flood Relief in Feni,Bangladesh
-                </div>
-                <div class="collapse-content">
-                    <p>tabindex="0" attribute is necessary to make the div focusable</p>
+            <div class="max-w-96 lg:max-w-6xl p-4 h-36 bg-gray-100 border-black rounded-lg mx-auto">
+                <div id="transaction-container-one">
+                    <p id="liveTime1"></p>
                 </div>
             </div>
-            <div tabindex="0" class="collapse collapse-open border-base-300 bg-base-200 border">
-                <div class="collapse-title text-xl font-medium">15500 Taka is Donated for Aid for Injured in the Quota
-                    Movement, Bangladesh</div>
-                <div class="collapse-content">
-                    <p>tabindex="0" attribute is necessary to make the div focusable</p>
+            <div class="max-w-96 lg:max-w-6xl p-4 h-36 bg-gray-100 border-black rounded-lg mx-auto">
+                <div id="transaction-container-two">
+                    <p id="liveTime2"></p>
                 </div>
             </div>
 
@@ -157,15 +155,15 @@
 
         <!-- modal section  -->
         <dialog id="modalOpen" class="my-12 mx-auto">
-            <div class="card max-w-sm md:max-w-md min-h-80 space-y-3 shadow-2xl text-center rounded-lg">
-                <div class="card-body">
+            <div class="card max-w-sm md:max-w-md min-h-80 space-y-3 shadow-2xl text-center">
+                <div class="card-body rounded-lg">
                     <h1 class="card-title justify-center text-3xl font-bold">congrates!</h2>
-                    <div class="flex justify-center">
-                        <img src="assets/coin.png" alt="" class="w-12 h-12">
-                    </div>
-                    <h2 class="font-bold">Successfully</h2>
-                    <p>You Have Donated for Humankind</p>
-                    <button id="modalClose" class="btn">close confirmation</button>
+                        <div class="flex justify-center">
+                            <img src="assets/coin.png" alt="" class="w-12 h-12">
+                        </div>
+                        <h2 class="font-bold">Successfully</h2>
+                        <p>You Have Donated for Humankind</p>
+                        <button id="modalClose" class="btn">close confirmation</button>
                 </div>
             </div>
         </dialog>
