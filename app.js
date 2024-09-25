@@ -59,7 +59,6 @@ document.getElementById('blogClick').addEventListener('click', function () {
     window.location.href = 'faq.html';
 })
 
-// transaction history 
 
 
 
