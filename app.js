@@ -60,6 +60,9 @@ document.getElementById('blogClick').addEventListener('click', function () {
 })
 
 
+function donateSection() {
+    window.location.reload();
+}
 
 
 
